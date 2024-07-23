@@ -1,0 +1,7 @@
+# Exercício 3 - Crie uma função que receba como parâmetro uma lista de 4 elementos, adicione 2 elementos a lista e 
+# imprima a lista
+
+def addLista(lista, num1, num2):
+    lista.append(num1)
+    lista.append(num2)
+    return lista
